@@ -79,7 +79,7 @@ export default function NavBar() {
                 <img src={NavArrow} alt="" className="side-nav-arrow" />
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/login">
                 <span className="side-nav-link">Login</span>
                 <img src={NavArrow} alt="" className="side-nav-arrow" />
@@ -90,7 +90,7 @@ export default function NavBar() {
                 <span className="side-nav-link">Register</span>
                 <img src={NavArrow} alt="" className="side-nav-arrow" />
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       )}
