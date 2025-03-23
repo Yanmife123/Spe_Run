@@ -1,0 +1,8 @@
+.content {
+  padding: 0.5rem;
+}
+
+.content-wrapper {
+  padding: 1rem;
+  box-shadow: 0 0.125rem 0.625rem #00000080;
+}
