@@ -41,11 +41,6 @@ export default function NavBar() {
                 >
                   &times;
                 </button>
-                <button className="nav-bar-menu">
-                  <div className="line"></div>
-                  <div className="line"></div>
-                  <div className="line"></div>
-                </button>
               </div>
             </li>
             <li>

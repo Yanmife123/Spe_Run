@@ -17,6 +17,7 @@
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  transition: all 0.3s ease-in-out;
 }
 .contact-form input:focus,
 .contact-form textarea:focus {
