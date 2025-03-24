@@ -1,6 +1,5 @@
 import "./NavBar.css";
-import SpeLogo from "../assets/spe-logo.svg";
-import RunLogo from "../assets/run-logo.svg";
+import { speLogoBlue, RunLogo } from "../assets";
 import NavArrow from "../assets/menu-arrow-2.svg";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -15,7 +14,7 @@ export default function NavBar() {
       <div className="nav-bar">
         <div className="nav-wrapper">
           <div className="logo-container">
-            <img src={SpeLogo} alt="" />
+            <img src={speLogoBlue} alt="" />
             <img src={RunLogo} alt="" />
           </div>
           <p>

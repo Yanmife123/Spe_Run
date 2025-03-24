@@ -16,62 +16,75 @@ export default function About() {
       <main>
         <Content>
           <Article>
-            <h2>Mission and Vision</h2>
+            <h2>Mission</h2>
             <p>
-              Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
-              nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
-              tellus elit sed risus. Maecenas eget condimentum velit, sit amet
-              feugiat lectus. Class aptent taciti sociosqu ad litora torquent
-              per conubia nostra.
+              The mission of the Society of Petroleum Engineers is to collect,
+              disseminate, and exchange technical knowledge concerning the
+              exploration, development, and production of oil and gas resources
+              and related technologies for the public benefit; and to provide
+              opportunities for professionals to enhance their technical and
+              professional competence.
             </p>
+            <h2>Vision</h2>
             <p>
-              Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
-              nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
-              tellus elit sed risus. Maecenas eget condimentum velit, sit amet
-              feugiat lectus. Class aptent taciti sociosqu ad litora torquent
-              per conubia nostra.
+              Advance the oil and gas community’s ability to meet the world’s
+              energy in a safe, environmentally responsible, and
+              sustainable manner.
             </p>
           </Article>
           <Article>
             <h2>History</h2>
             <p>
-              Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
-              nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
-              tellus elit sed risus. Maecenas eget condimentum velit, sit amet
-              feugiat lectus. Class aptent taciti sociosqu ad litora torquent
-              per conubia nostra.
+              The Society of Petroleum Engineers (SPE) aims to collect,
+              disseminate, and exchange technical knowledge related to oil and
+              gas exploration, development, and production, while also advancing
+              the oil and gas community's ability to meet the world's energy
+              needs safely, responsibly, and sustainably.
             </p>
-            <p>
-              Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
-              nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
-              tellus elit sed risus. Maecenas eget condimentum velit, sit amet
-              feugiat lectus. Class aptent taciti sociosqu ad litora torquent
-              per conubia nostra.
-            </p>
+            <p></p>
           </Article>
           <Article>
             <h2>Core Values</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              quisquam saepe fugit blanditiis esse sequi culpa atque autem, quas
-              hic!
+              The core values of the Society of Petroleum Engineers (SPE) are
+              excellence, integrity, professionalism, life-long learning,
+              diversity, volunteerism, innovation, and social responsibility.
+              <br />
+              Here's a more detailed breakdown:
             </p>
             <ol>
               <li>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
-                saepe asperiores nemo?
+                Excellence: Striving for the highest standards in technical
+                knowledge and practice.
               </li>
               <li>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
-                saepe asperiores nemo?
+                Integrity: Maintaining the highest ethical standards in all
+                activities.
               </li>
               <li>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
-                saepe asperiores nemo?
+                Professionalism: Acting with competence, respect, and
+                responsibility.
+              </li>
+              <li>
+                Life-long Learning: Continuously seeking to expand knowledge and
+                skills.
+              </li>
+              <li>
+                Diversity: Valuing and respecting the wide range of backgrounds,
+                experiences, and perspectives within the organization.
+              </li>
+              <li>
+                Volunteerism: Encouraging and supporting members to contribute
+                their time and expertise to the organization and the industry.
+              </li>
+              <li>
+                Innovation: Fostering creativity and the development of new
+                technologies and solutions.
+              </li>
+              <li>
+                Social Responsibility: Recognizing the impact of the oil and gas
+                industry on society and working to minimize negative impacts and
+                maximize positive ones.
               </li>
             </ol>
           </Article>

@@ -66,9 +66,7 @@ input:-webkit-autofill:focus {
       max-width: 500px;
       border-radius: 35px;
       box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-      -webkit-backdrop-filter: blur(8px);
       background: rgba(255, 255, 255, 0.15); /* Light blur background */
-      backdrop-filter: blur(8px);
 
       h2 {
         color: whitesmoke;
@@ -202,6 +200,31 @@ label {
     transform: scale(1.05);
   }
 }
+@media (max-width: 1025px) {
+  .main {
+    flex-direction: column;
+
+    .heroContainer,
+    .detail {
+      flex: none;
+    }
+    .heroContainer {
+      height: 30%;
+      display: none;
+      img {
+        height: 100%;
+      }
+    }
+    .detail {
+      /* border: 1px solid red; */
+      height: 100%;
+      .detailSubContainer {
+        width: 90%;
+        padding: 20px;
+      }
+    }
+  }
+}
 
 @media (max-width: 768px) {
   .main {
@@ -221,7 +244,8 @@ label {
     .detail {
       /* border: 1px solid red; */
       height: 100%;
-      .detailSubConatiner {
+      .detailSubContainer {
+        width: 90%;
         padding: 20px;
       }
     }
