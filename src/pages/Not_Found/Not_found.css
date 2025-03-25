@@ -21,8 +21,7 @@
   font-family: sans-serif;
   margin-bottom: 30px;
 }
-
-a {
+.not_found_submain div a {
   padding: 10px;
   text-decoration: none;
   color: #02264e;
