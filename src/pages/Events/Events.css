@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.event-banner {
+  height: 90vh;
+  width: 100%;
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 0, 30, 0.7)),
+    url("../../assets/panel-shot.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 60px;
+}
+
+.banner-content {
+  color: #fff;
+  width: 70%;
+  padding: 13% 8%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.banner-content h2 {
+  font-size: 50px;
+  font-weight: 700;
+  opacity: 0;
+  animation: slideBottom 1s ease forwards;
+  animation-delay: 0.7s;
+  color: #ffffff;
+  letter-spacing: 1px;
+  line-height: 35px;
+}
+
+.banner-content p {
+  font-size: 20px;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+  animation-delay: 0.7s;
+  color: #fff;
+}
+
+.banner-content button {
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-right: 12px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 6px;
+  color: #02264e;
+  font-size: 15px;
+  font-weight: 550;
+  cursor: pointer;
+  animation: slideRight 1s ease forwards;
+  animation-delay: 0.7s;
+}
+
+/* BODY */
+
+.events-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 8%;
+  padding: 1rem 2rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.events-container h1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #02264e;
+}
+
+.events-container p {
+  height: 4px;
+  width: 70px;
+  margin-left: 10px;
+  background-color: #02264e;
+}
+
+.events-container-events {
+  display: grid;
+  padding: 20px 30px;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  gap: 2rem;
+  margin: 30px auto;
+  animation: slideBottom 1s ease forwards;
+  animation-delay: 0.7s;
+  opacity: 0;
+}
+
+.event-card {
+  text-align: left;
+}
+
+.event-card img {
+  width: 100%;
+  height: 200px;
+}
+
+.event-card h3 {
+  color: #000;
+  font-size: 25px;
+}
+
+.event-card h4 {
+  color: #444;
+  font-size: 15px;
+}
+
+.event-card .text {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.event-card button {
+  padding: 10px 10px 10px 10px;
+  background-color: #02264e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  letter-spacing: 1px;
+}
+@media (max-width: 1024px) {
+  .banner-content h2 {
+    font-size: 35px;
+    .banner-content {
+      gap: 20px;
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 900px) {
+  .banner-content h2 {
+    font-size: 30px;
+  }
+  .banner-content {
+    gap: 10px;
+    width: 100%;
+  }
+  .event-banner {
+    height: 380px;
+  }
+}

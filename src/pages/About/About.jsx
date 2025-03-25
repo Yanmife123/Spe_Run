@@ -1,18 +1,20 @@
 import "./About.css";
 import {
   SeeMore,
-  Header,
+  HeadTopic,
   Figure,
   Content,
   Footer,
   Article,
+  Navbar,
 } from "../../components";
 import { infoIcon, Image1, Image2, Image3, Image4 } from "../../assets";
 
 export default function About() {
   return (
-    <div className="about">
-      <Header pageTitle={"About Us"} icon={infoIcon} />
+    <div className="aboutMuna">
+      <HeadTopic pageTitle={"About Us"} icon={infoIcon} />
+      <Navbar />
       <main>
         <Content>
           <Article>

@@ -1,0 +1,104 @@
+.header {
+  height: 80vh;
+  width: 100%;
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 0, 30, 0.7)),
+    url("../../assets/well9.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 75px;
+}
+
+.header-content {
+  color: #fff;
+  width: 70%;
+  padding: 17% 8%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header-content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  opacity: 0;
+  animation: slideBottom 1s ease forwards;
+  animation-delay: 0.7s;
+  color: #ffffff;
+}
+
+@keyframes slideBottom {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    max-height: 60vh;
+  }
+
+  .header-content {
+    width: 100%;
+    padding: 19% 8%;
+  }
+
+  .header-content h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    max-height: 50vh;
+  }
+
+  .header-content {
+    width: 100%;
+    padding: 19% 8%;
+    gap: 0;
+  }
+
+  .header-content h2 {
+    font-size: 2rem;
+  }
+}
+
+/* @media (max-width: 540px) {
+    .header {
+        max-height: 30vh;
+    }
+
+    .header-content {
+        width: 100%;
+        padding: 21% 8%;
+    }
+
+    .header-content h2 {
+        font-size: 1rem;
+    }
+} */
+
+@media (max-width: 430px) {
+  .header {
+    max-height: 35vh;
+  }
+
+  .header-content {
+    width: 100%;
+    padding: 25% 8%;
+  }
+
+  .header-content h2 {
+    font-size: 1rem;
+  }
+}

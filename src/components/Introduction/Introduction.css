@@ -1,0 +1,90 @@
+.intro-container {
+    margin: 3% 5%;
+}
+
+.intro-container h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #02264e;
+}
+
+.intro-container p {
+    height: 6px;
+    width: 70px;
+    margin-left: 20px;
+    background-color: #02264e;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    justify-content: space-between;
+}
+
+.intro .intro-left-side {
+    width: 100%;
+}
+
+.intro .intro-left-side img {
+    max-width: 100%;
+    height: auto;
+    animation: slideRight 1s ease forwards;
+    animation-delay: .7s;
+    opacity: 0;
+}
+
+.intro .intro-right-side {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.intro .intro-right-side h4 {
+    max-width: 2000px;
+    padding-bottom: 40px;
+    line-height: 1.5;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: .7s;
+    opacity: 0;
+}
+
+@media(max-width: 1024px) {
+    .intro {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .intro .intro-left-side {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .intro .intro-right-side {
+        margin: 0 3%;
+    }
+}
+
+@media (max-width: 425px) {
+    .intro {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .intro .intro-left-side img {
+        max-width: 70%;
+    }
+
+    .intro-right-side {
+        width: 100%;
+    }
+
+    .intro-right-side h4 {
+        font-size: 14px;
+    }
+}

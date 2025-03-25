@@ -14,6 +14,8 @@ import Facebook from "./facebook-logo.png";
 import X from "./x-logo.png";
 import Threads from "./threads-logo.png";
 import LinkedIn from "./linkedin-logo.png";
+import MenuArrow from "./menu-arrow.svg";
+import NotFoundImg from "./Not_found.png";
 
 export {
   loginHero,
@@ -32,4 +34,6 @@ export {
   X,
   Threads,
   LinkedIn,
+  MenuArrow,
+  NotFoundImg,
 };

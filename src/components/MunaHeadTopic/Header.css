@@ -1,0 +1,19 @@
+@import url("../../globals.css");
+
+.hero {
+  display: flex;
+  background-color: var(--blue);
+  color: var(--grey);
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 2rem 1.5rem;
+}
+
+.hero img {
+  display: block;
+  height: 10rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}

@@ -1,0 +1,12 @@
+@import url("../../globals.css");
+
+.article-custom h2 {
+  padding: 2rem 0 1rem;
+  font-size: 2rem;
+}
+
+.article-custom p,
+.article-custom ol,
+.gallery-wrapper {
+  padding: 0 1rem 1rem;
+}

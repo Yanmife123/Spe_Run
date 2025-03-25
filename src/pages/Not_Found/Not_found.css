@@ -1,0 +1,36 @@
+.not_Found_Main {
+  height: 100svh;
+  background: #02264e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.not_found_submain img {
+  height: 200px;
+}
+.not_found_submain {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.not_found_submain div {
+  font-size: 30px;
+  font-weight: 600px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+a {
+  padding: 10px;
+  text-decoration: none;
+  color: #02264e;
+  background: white;
+  border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .not_found_submain {
+    flex-direction: column;
+  }
+}

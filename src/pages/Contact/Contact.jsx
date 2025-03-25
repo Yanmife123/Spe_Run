@@ -1,12 +1,20 @@
 import "./Contact.css";
-import { Header, Footer, Article, Content, Form } from "../../components";
+import {
+  HeadTopic,
+  Navbar,
+  Footer,
+  Article,
+  Content,
+  Form,
+} from "../../components";
 import { infoIcon } from "../../assets";
 
 export default function Contact() {
   return (
     <div>
-      <Header pageTitle={"Contact Us"} icon={infoIcon} />
-      <main>
+      <Navbar />
+      <main className="mt-60px">
+        <HeadTopic pageTitle={"Contact Us"} icon={infoIcon} />
         <Content>
           <Article>
             <h2>Partner with us</h2>

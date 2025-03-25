@@ -18,7 +18,7 @@ const SecondLoader = () => {
           </div>
           <div className="right">
             <h2>welcome!</h2>
-            <Link to={"/about"} className="btn">
+            <Link to={"/home"} className="btn">
               <div>learn more</div>
               <svg
                 width="40"

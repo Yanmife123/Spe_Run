@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.team-banner {
+  height: 90vh;
+  width: 100%;
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 0, 30, 0.7)),
+    url("../../assets/conference.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 60px;
+}
+
+.banner-content {
+  padding-top: 17%;
+}
+
+.banner-content h2 {
+  font-size: 2.5rem;
+}
+
+.team-card {
+  color: #fff;
+  text-align: center;
+}
+
+.team-card img {
+  width: 100%;
+  height: 45vh;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: 2px solid #fff;
+}
+
+.team-card h3 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.team-card h4 {
+  font-weight: 200;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.team-card p {
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+@media (max-width: 1024px) {
+  .team-banner {
+    height: 40vh;
+  }
+
+  .banner-content {
+    padding-top: 19%;
+  }
+
+  .banner-content h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-banner {
+    height: 45vh;
+  }
+
+  .banner-content {
+    padding-top: 24%;
+  }
+
+  .banner-content h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .team-banner {
+    height: 35vh;
+  }
+
+  .banner-content {
+    padding-top: 32%;
+  }
+
+  .banner-content h2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .team-banner {
+    height: 35vh;
+  }
+}
