@@ -1,4 +1,4 @@
-import "./Not_Found.css";
+import "./Not_found.css";
 import { Link } from "react-router-dom";
 import { NotFoundImg } from "../../assets";
 
