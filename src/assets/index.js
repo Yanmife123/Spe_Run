@@ -2,7 +2,7 @@ import loginHero from "./portrait-person-working-construction-industry.jpg";
 import registerHero from "./register.jpg";
 import speLogo from "./spe_1.png";
 import speLogoBlue from "./spe_logo.png";
-import Hero from "./hero.png";
+import Hero from "./image.png";
 import RunLogo from "./redeemers_logo.png";
 import infoIcon from "./info-icon.svg";
 import Image1 from "./trivia-night-pics/trivia-1.png";
