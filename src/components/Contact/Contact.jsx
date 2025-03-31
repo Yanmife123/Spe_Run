@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import { assets } from "../../assets/assets";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -24,7 +25,9 @@ const Contact = () => {
             experience with the society. Your journey in the petroleum industry
             starts here—let's make it a successful one together!
           </h4>
-          <button>Contact Form</button>
+          <Link to="/contact">
+            <button>Contact Form</button>
+          </Link>
         </div>
       </div>
     </div>

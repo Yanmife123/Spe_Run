@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import { Link } from "react-router-dom";
 import { assets } from "../../assets/assets";
 
 const About = () => {
@@ -42,7 +43,9 @@ const About = () => {
             help you achieve your goals and make a positive impact in the world
             of petroleum engineering.
           </p>
-          <button>Read Full Details</button>
+          <Link to="/about">
+            <button>Read Full Details</button>
+          </Link>
         </div>
       </div>
     </div>
