@@ -1,25 +1,52 @@
-import React from 'react';
+import React from "react";
 import "./About.css";
-import { assets } from '../../assets/assets';
+import { assets } from "../../assets/assets";
 
 const About = () => {
   return (
-    <div className='about-container'>
-      <h1>About Us <p></p></h1>
-      <div className='about'>
-        <div className='about-left-side'>
-          <img src={assets.image3} alt="" className='about-img1'/>
-          <img src={assets.image2} alt="" className='about-img2'/> <br />
-          <img src={assets.image1} alt="" className='about-img2'/>
-          <img src={assets.image4} alt="" className='about-img1'/>
+    <div className="about-container">
+      <h1>
+        About Us <p></p>
+      </h1>
+      <div className="about">
+        <div className="about-left-side">
+          <img src={assets.image3} alt="" className="about-img1" />
+          <img src={assets.image2} alt="" className="about-img2" /> <br />
+          <img src={assets.image1} alt="" className="about-img2" />
+          <img src={assets.image4} alt="" className="about-img1" />
         </div>
-        <div className='about-right-side'>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, dicta, repellendus dolores minima quisquam sapiente excepturi cupiditate quam quibusdam porro libero placeat accusamus eius aliquid cumque omnis quo quod deleniti, pariatur laudantium molestiae laboriosam! Illum itaque explicabo autem ipsum ad eum aliquam commodi accusamus expedita doloribus tempora, perspiciatis eos excepturi quo et quos vel fugit? Vero aliquam sunt dolores ipsam repellat odit a dolore porro ducimus deserunt, quam incidunt blanditiis!</p>
-            <button>Read Full Details</button>
+        <div className="about-right-side">
+          <p>
+            The Society of Petroleum Engineers (SPE) at Redeemer's University is
+            a student-driven organization committed to enhancing the academic
+            and professional development of students with an interest in
+            petroleum engineering and the energy industry. As a chapter of the
+            global SPE network, we provide a platform for students to engage
+            with industry professionals, participate in technical discussions,
+            and develop skills that are essential for success in the petroleum
+            sector.
+          </p>
+          <p>
+            Our mission is to foster a collaborative environment where students
+            can deepen their knowledge of petroleum engineering, connect with
+            like-minded peers, and gain exposure to the latest advancements in
+            the field. Through workshops, seminars, site visits, and hands-on
+            projects, we aim to equip our members with practical experience and
+            valuable insights that will help them thrive in the rapidly evolving
+            energy landscape.
+          </p>
+          <p>
+            Whether you’re looking to expand your knowledge, build a
+            professional network, or contribute to sustainable energy solutions,
+            the SPE at Redeemer's University offers a supportive community to
+            help you achieve your goals and make a positive impact in the world
+            of petroleum engineering.
+          </p>
+          <button>Read Full Details</button>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

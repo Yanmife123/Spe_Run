@@ -1,21 +1,34 @@
-import React from 'react';
-import "./Introduction.css"
-import { assets } from '../../assets/assets';
+import React from "react";
+import "./Introduction.css";
+import { assets } from "../../assets/assets";
 
 const Introduction = () => {
-    return (
-        <div className='intro-container'>
-            <h1>Introduction <p></p></h1>
-            <div className='intro'>
-                <div className='intro-left-side'>
-                    <img src={assets.logo4} alt="" />
-                </div>
-                <div className='intro-right-side'>
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio exercitationem deserunt reprehenderit odio consequatur vel. Quasi minima praesentium doloremque odit quibusdam quia illum nulla sint assumenda! Quisquam excepturi, temporibus sint porro, tempore officiis sequi dolor minima sed exercitationem harum minus aspernatur, culpa libero rerum animi magnam itaque! Nostrum voluptate libero impedit a illum corporis aut. Et sunt dolorem suscipit autem, adipisci rerum debitis fugiat aperiam ab omnis? Corrupti ducimus, quisquam odio quae vel libero cum eaque ipsam perferendis maxime ad, dignissimos expedita incidunt sequi non earum eos corporis esse fugit, odit ipsa placeat possimus ratione? Laudantium nisi quod et animi!</h4>
-                </div>
-            </div>
+  return (
+    <div className="intro-container">
+      <h1>
+        Introduction <p></p>
+      </h1>
+      <div className="intro">
+        <div className="intro-left-side">
+          <img src={assets.logo4} alt="" />
         </div>
-    )
-}
+        <div className="intro-right-side">
+          <h4>
+            Welcome to the official website of the Society of Petroleum
+            Engineers (SPE) at Redeemer's University! Our society is dedicated
+            to fostering a vibrant community of students passionate about the
+            petroleum industry and its innovative future. As a branch of the
+            global SPE network, we aim to bridge the gap between academic
+            learning and the dynamic energy sector, providing our members with
+            unique opportunities for growth, professional development, and
+            hands-on experience. Explore our site to learn about upcoming
+            events, industry insights, and how you can get involved in shaping
+            the future of petroleum engineering.
+          </h4>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default Introduction
+export default Introduction;
