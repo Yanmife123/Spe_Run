@@ -23,7 +23,7 @@ function App() {
           <Route path={"/contact"} element={<Contact />} />
           <Route path={"/events"} element={<Events />} />
           <Route path={"/team"} element={<Team />} />
-          <Route path={"*"} element={<NotFound />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </Router>
