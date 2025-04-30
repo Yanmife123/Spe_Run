@@ -29,9 +29,9 @@ export default function About() {
             </p>
             <h2>Vision</h2>
             <p>
-              Advance the oil and gas community’s ability to meet the world’s
-              energy in a safe, environmentally responsible, and
-              sustainable manner.
+              Advance the oil and gas community's ability to meet the world's
+              energy in a safe, environmentally responsible, and sustainable
+              manner.
             </p>
           </Article>
           <Article>
@@ -41,10 +41,12 @@ export default function About() {
               disseminate, and exchange technical knowledge related to oil and
               gas exploration, development, and production, while also advancing
               the oil and gas community's ability to meet the world's energy
-              needs safely, responsibly, and sustainably.
+              needs safely, responsibly, and sustainably.
             </p>
             <p></p>
           </Article>
+        </Content>
+        <Content>
           <Article>
             <h2>Core Values</h2>
             <p>
@@ -86,7 +88,7 @@ export default function About() {
               <li>
                 Social Responsibility: Recognizing the impact of the oil and gas
                 industry on society and working to minimize negative impacts and
-                maximize positive ones.
+                maximize positive ones.
               </li>
             </ol>
           </Article>
@@ -99,8 +101,8 @@ export default function About() {
               <Figure imgSource={Image4} />
             </section>
           </Article>
-          <SeeMore />
         </Content>
+        <SeeMore />
       </main>
       <Footer />
     </div>

@@ -8,6 +8,7 @@ import {
   Events,
   Team,
   NotFound,
+  Profile,
 } from "./pages";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path={"/login"} element={<Login />} />
           <Route path={"/register"} element={<Register />} />
+          <Route path={"/profile"} element={<Profile />} />
           <Route path={"/about"} element={<About />} />
           <Route path={"/contact"} element={<Contact />} />
           <Route path={"/events"} element={<Events />} />

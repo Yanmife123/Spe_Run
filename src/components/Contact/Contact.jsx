@@ -7,15 +7,15 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <h1>
-        Contact Us <p></p>
+        Contact Us <span></span>
       </h1>
       <div className="contact">
         <div className="contact-left-side">
           <img src={assets.image6} alt="" />
         </div>
         <div className="contact-right-side">
-          <h4>
-            We’d love to hear from you! Whether you have questions, suggestions,
+          <p>
+            We'd love to hear from you! Whether you have questions, suggestions,
             or want to learn more about the Society of Petroleum Engineers at
             Redeemer's University, we are here to help. <br />
             <br />
@@ -24,7 +24,7 @@ const Contact = () => {
             is always ready to assist and ensure that you have a great
             experience with the society. Your journey in the petroleum industry
             starts here—let's make it a successful one together!
-          </h4>
+          </p>
           <Link to="/contact">
             <button>Contact Form</button>
           </Link>

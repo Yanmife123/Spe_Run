@@ -7,6 +7,7 @@ import Home from "./Home/Home";
 import Events from "./Events/Events";
 import Team from "./Team/Team";
 import NotFound from "./Not_Found/Not_Found";
+import Profile from "./Profile/Profile";
 
 export {
   Loader,
@@ -18,4 +19,5 @@ export {
   Events,
   Team,
   NotFound,
+  Profile,
 };

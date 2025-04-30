@@ -5,4 +5,6 @@
 .content-wrapper {
   padding: 1rem;
   box-shadow: 0 0.125rem 0.625rem #00000080;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }

@@ -1,37 +1,72 @@
-import "./style.css";
 import { loginHero } from "../../assets";
+import { Link, useNavigate } from "react-router-dom";
 import Heroimage from "./heroComponent";
-import { Link } from "react-router-dom";
+import "./style.css";
+import { useState } from "react";
+import supabase from "../../lib/supabase";
 
 const Login = () => {
+  const [error, setError] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    setError(false);
+    setLoading(true);
+
+    const email = e.target.email.value;
+    const password = e.target.password.value;
+
+    const { error } = await supabase.auth.signInWithPassword({
+      email,
+      password,
+    });
+
+    if (error) {
+      setError(error.message);
+      setLoading(false);
+    } else {
+      console.log("Login successful");
+      setLoading(false);
+      navigate("/home"); // <-- Redirect to /home
+    }
+  };
+
   return (
     <div className="main">
-      <Heroimage hero={loginHero} />
       <div className="detail">
         <div className="detailSubContainer">
-          <form action="">
-            <h2>Login to SPE Society</h2>
-            <p> We're glad to see you again! Please log in to continue.</p>
+          <form onSubmit={handleLogin}>
+            <h2 className="capitalize">welcome back</h2>
+            <p>
+              Log in to stay connected with the community and access exclusive
+              resources tailored for energy professionals.
+            </p>
             <div className="inputContainerLogin">
               <label htmlFor="email" className="capitalize">
                 email
               </label>
               <input
-                type="text"
-                id="email"
+                type="email"
                 name="email"
-                className="userInput"
+                className={`userInput ${loading ? "loading" : ""}`}
+                id="email"
+                required
+                disabled={loading}
               />
             </div>
             <div className="inputContainerLogin">
-              <label htmlFor="password" className=" capitalize">
+              <label htmlFor="password" className="capitalize">
                 password
               </label>
               <input
                 type="password"
-                id="password"
                 name="password"
-                className="userInput"
+                className={`userInput ${loading ? "loading" : ""}`}
+                id="password"
+                required
+                disabled={loading}
               />
             </div>
             <div className="inputContainerLogin others">
@@ -39,33 +74,35 @@ const Login = () => {
                 <input
                   type="checkbox"
                   className="rememberInput"
-                  name="rememeberMe"
-                  id="rememember"
+                  name="remember"
+                  id="remember"
+                  disabled={loading}
                 />
-                <label htmlFor="rememember">Rememember me</label>
+                <label htmlFor="remember" className="capitalize">
+                  remember me
+                </label>
               </div>
-              <Link to={"/"} className="capitalize">
-                forgotten password
-              </Link>
             </div>
             <div className="inputContainerLogin">
               <input
                 type="submit"
-                id="submit"
-                className="submit"
+                className={`submit capitalize ${loading ? "loading" : ""}`}
                 name="submit"
-                value={"Log in"}
+                value={"login"}
+                disabled={loading}
               />
             </div>
+            {error && <p>{error}</p>}
           </form>
           <div className="noAccount">
-            Don't have an account?{" "}
+            Don’t have an account?{" "}
             <Link to={"/register"} className="capitalize">
-              sign up
+              register
             </Link>
           </div>
         </div>
       </div>
+      <Heroimage hero={loginHero} />
     </div>
   );
 };

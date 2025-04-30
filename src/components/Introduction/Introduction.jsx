@@ -6,14 +6,14 @@ const Introduction = () => {
   return (
     <div className="intro-container">
       <h1>
-        Introduction <p></p>
+        Introduction <span></span>
       </h1>
       <div className="intro">
         <div className="intro-left-side">
           <img src={assets.logo4} alt="" />
         </div>
         <div className="intro-right-side">
-          <h4>
+          <p>
             Welcome to the official website of the Society of Petroleum
             Engineers (SPE) at Redeemer's University! Our society is dedicated
             to fostering a vibrant community of students passionate about the
@@ -24,7 +24,7 @@ const Introduction = () => {
             hands-on experience. Explore our site to learn about upcoming
             events, industry insights, and how you can get involved in shaping
             the future of petroleum engineering.
-          </h4>
+          </p>
         </div>
       </div>
     </div>
